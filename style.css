@@ -8,8 +8,8 @@
 
 #board {
     position: relative;
-    height: 350px;
-    width: 350px;
+    height: 500px;
+    width: 500px;
     margin: 50px auto 30px auto;
     overflow: hidden;
     display: grid;
@@ -47,7 +47,7 @@
 #modal__window {
     position: relative;
     top: 15%;
-    max-width: 550px;
+    width: 750px;
     margin: auto;
     padding: 5px 20px 20px;
     background-color: #f8f6f6;
@@ -57,7 +57,7 @@
 }
 
 button {
-    min-width: 100px;
+    min-width: 200px;
     border: 1px solid lightgray;
     cursor: pointer;
     padding: 15px;
